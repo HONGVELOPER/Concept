@@ -35,8 +35,8 @@
 #### 운영체제와 소프트웨어 응용프로그램 사이에 존재하느 소프트웨어이다. (애매한 표현)
 #### 프론트와 백을 연결하여 데이터를 주고 받을 수 있도록 중간에서 매개역할을 하는 소프트웨어이다
 #### 미들웨어 중 자주 사용되는 미들웨어는 1. compression(데이터 압축) / 2. body-parser / 3. DB 접속 미들웨어 / 4.multer 등이 있다.
-#### vue component에서는 프론트에서 재사용 함수를 저장해 놓은 것이라면, middelware는 client와 server간의 데이터를 주고 받는 과정에서
-#### 재사용 할 수 있는 함수를 저장해 놓은 것이라고 이해하면 된다.
+#### middelware는 client와 server간의 데이터를 주고 받는 과정에서 재사용 할 수 있는 함수를 저장해 놓은 것이라고 이해하면 된다.
+#### 컴포넌트 속에 미들웨어가 들어가 있다고 생각.
 #### app.get, app.post, app.put, app.delete 또한 요청 URL과 Method에 따라서 작동하는 미들웨어이다.
 #### middleware 표현식 : 
 #### app.use((req, res, next) => {  &nbsp;&nbsp;&nbsp; // 미들웨어 등록
